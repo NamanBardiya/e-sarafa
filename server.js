@@ -8,7 +8,7 @@ dotenv.config();
 const app = express();
 
 var corsOptions = {
-  origin: "https://e-sarafa.onrender.com/"
+  origin: "https://e-sarafa.onrender.com"
 };
 
 app.use(cors(corsOptions));
